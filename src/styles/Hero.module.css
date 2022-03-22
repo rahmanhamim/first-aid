@@ -1,0 +1,55 @@
+.hero_container {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+.hero_container:nth-child(2) {
+    height: 500px;
+    background-color: red;
+}
+
+
+
+.hero_grid {
+    background-color: #FFF6F6;
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.grid_image {
+    z-index: 10;
+    display: inline-block;
+    position: absolute;
+
+}
+
+.link {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 36px;
+    color: #EA2E10;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.link:hover {
+    color: #dd5a45;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1200px) {
+    .hero_container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width:899px) {
+    .link {
+        font-size: 15px;
+    }
+}

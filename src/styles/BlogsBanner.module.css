@@ -1,0 +1,16 @@
+.bannerContainerStyle {
+ background: url("../images/blogs-banner.png");
+ height: "387px" !important;
+ display: "flex";
+ justify-content: "center";
+ align-items: "center";
+}
+.bannerTextContainerStyle {
+ text-align: "center";
+ color: "#fff";
+}
+.blogsTextStyle {
+ color: "#fff";
+ font-weight: "bold";
+ font-size: "3em";
+}
